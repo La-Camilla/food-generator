@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-image: radial-gradient( circle farthest-corner at 48.4% 47.5%,  rgba(122,183,255,1) 0%, rgba(21,83,161,1) 90% );
+}
+
+#main {
+    height: 100vh;
+    background-image: radial-gradient( circle farthest-corner at 48.4% 47.5%,  rgba(122,183,255,1) 0%, rgba(21,83,161,1) 90% );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#random {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(6, 25, 47);
+}
+
+#randomize-button {
+    font-weight: 600;
+    font-size: 24px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(21,83,161,1) ;
+    color: white;
+    padding: 10px;
+}
+
+#randomize-button:hover {
+    background-color: rgb(6, 30, 96);
+    
+}
+
+#result {
+    font-size: 20px;
+    font-weight: bold;
+}
